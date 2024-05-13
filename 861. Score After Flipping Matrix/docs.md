@@ -1,9 +1,11 @@
 # Intuition
 <!-- Describe your first thoughts on how to solve this problem. -->
 
+
 # Approach
 <!-- Describe your approach to solving the problem. -->
-
+as i thinking when should we toggle the column or row i noticed that in binary number the leftmost number always larger then sum of previous number. Therefore the is no reason to toggle the row after the first column. for every column after the first i will decide to toggle the row based on the number of 1 existing on that row if number of 1s is larger than number of 0s than i will toggle that column\
+the toggle row only used for the first columns for grantee that the first column all contain 1 for **maximun matrix score value**
 # Complexity
 - Time complexity:
 <!-- Add your time complexity here, e.g. $$O(n)$$ -->
