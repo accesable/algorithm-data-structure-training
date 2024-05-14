@@ -16,7 +16,7 @@ def destCity(paths: List[List[str]]) -> str:
             return k 
         else :
             k = path_dict[k]
-
+    
 print(destCity(t1))
 print(destCity(t2))
 print(destCity(t3))
