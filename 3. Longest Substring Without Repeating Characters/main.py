@@ -5,6 +5,7 @@ t4 = "au"
 t5 = " "
 t6 = ""
 t7 = "dvdf"
+t8 = "abcdcefg"
 def lengthOfLongestSubstring(s: str) -> int:
     left = 0
     # right = 1
@@ -26,4 +27,4 @@ def lengthOfLongestSubstring(s: str) -> int:
         # print("-----")
     return max_value
 
-print(lengthOfLongestSubstring(t4))
+print(lengthOfLongestSubstring(t8))
